@@ -1,0 +1,26 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "sqlite",
+        "filename": ".tmp/data.db"
+      },
+      "options": {
+        "useNullAsDefault": true
+      }
+    },
+    "difalco_db": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "mysql",
+        "host": "sql.difalcoimmobiliare.it",
+        "port": 3306,
+        "database": "difalcoi96403",
+        "username": "difalcoi96403",
+        "password": "cygnx1"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "connection": "difalco_db",
+  "collectionName": "immobili",
+  "info": {
+    "name": "categoria",
+    "description": "tipo immobile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "id": {
+      "type": "integer"
+    },
+    "categoria": {
+      "type": "string"
+    }
+  }
+}
